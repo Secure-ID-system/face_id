@@ -1,4 +1,4 @@
-# Secure ID System Based on Faces
+# Faces based ID System
 
 As machine learning and especially computer vision becomes more ubiquitous technology, we leveraged state-of-the-art algortihms to create system for face recognition, which can be used out of the box. The system has to be populated with people's images and names. Then machine learning algorithm has to spend time for training and evaluation results. After that, the system is ready to use.  
 
