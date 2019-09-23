@@ -2,6 +2,9 @@
 
 As machine learning and especially computer vision becomes more ubiquitous technology, we leveraged state-of-the-art algortihms to create system for face recognition, which can be used out of the box. The system has to be populated with people's images and names. Then machine learning algorithm has to spend time for training and evaluation results. After that, the system is ready to use.  
 
+# Flow chart
+https://www.lucidchart.com/documents/edit/ada73da8-d447-4a67-bebc-ef268805a659/0_0?shared=true&docId=ada73da8-d447-4a67-bebc-ef268805a659
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
