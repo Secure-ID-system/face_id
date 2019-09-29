@@ -5,6 +5,9 @@ As machine learning and especially computer vision becomes more ubiquitous techn
 # Flow chart
 https://www.lucidchart.com/documents/edit/ada73da8-d447-4a67-bebc-ef268805a659/0_0?shared=true&docId=ada73da8-d447-4a67-bebc-ef268805a659
 
+# Presentation 
+https://docs.google.com/presentation/d/1YRL0KzfiG49JWZ16ugiZMg4Usq8ifHbDOjykhCetwAo/edit?ts=5d90b2cc#slide=id.g61a24222a8_2_10
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
