@@ -2,93 +2,63 @@
 
 As machine learning and especially computer vision becomes more ubiquitous technology, we leveraged state-of-the-art algortihms to create system for face recognition, which can be used out of the box. The system has to be populated with people's images and names. Then machine learning algorithm has to spend time for training and evaluation results. After that, the system is ready to use.  
 
-# Flow chart
+# Product Misson
+Make out-of-the-box solution for face recognition.  Build an iOS app which is able to capture image of a person and then match images in database, if avaliable then the user could get access to the sysytem.
+
+# Target Users
+Schools (Classroom Access, Dormitories), Libraries, Companies (Educational Testing Services), Residents (Visitor Access Control),etc.
+
+# User stories
+I, a building’s administrator, want to improve security by implementing access system based on face recognition.
+I, a lector, want to track class attendance using reliable method and without spending much time.
+I, a hospital associate, want to identify a person who has a accidence without documents to facilitate the hospital check-in process.
+I, an apartment owner, want to define the list of people who allowed to enter.
+I, a representative of Education Testing Services, want to authenticate a person before they start the exam.
+
+# Minimum Viable Product(MVP)
+The system which can authenticate and authorize access to premises based on face recognition.
+
+# Competitors
+
+# Patent Analysis
+
+# System Design
 https://www.lucidchart.com/documents/edit/ada73da8-d447-4a67-bebc-ef268805a659/0_0?shared=true&docId=ada73da8-d447-4a67-bebc-ef268805a659
 
-# Presentation 
-https://docs.google.com/presentation/d/1YRL0KzfiG49JWZ16ugiZMg4Usq8ifHbDOjykhCetwAo/edit?ts=5d90b2cc#slide=id.g61a24222a8_2_10
+# Technology
+## Language: Python
+* All team have experience on python.
+* Easy to develop and test.
+## User Interface: Core ML
+Pros: 
+* Core ML provide a framwork that allow the user to simply integrate machine learning models into App.
+* Users can use a wide variety of other machine learning libraries and then use CoreML Tools to convert the model into the Core ML format. 
+* It supports vision for analysis images.
+* It's easy to call Mac camera.
+## Facial Recognition: OpenCV
+The facial recognition progress is accomplished by following steps:
+1. Data Gathering: Gather face data (face images in this case) of the persons you want to identify.
+2. Train the Recognizer: Feed that face data and respective profile of each face to the recognizer so that it can learn.
+3. Recognition: Feed new faces of that people and see if the face recognizer you just trained recognizes them.
 
-## Getting Started
+So in our project, we are going to use the algorithem provided by OpenCV.
+Pros:
+* OpenCV provide wide liabraries for image processing.
+* Support Python
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Alternative 
+Tensorflow
 
-### Prerequisites
 
-What things you need to install the software and how to install them
+## Dataset: costom dataset
+Since the product mission is improve the security of access to system, we'll instead want to recognize faces that are not part of any current dataset and recognize faces of people who already registered in the system. So we have to create a costom facial recognition dataset.
 
-```
-Give examples
-```
+Method:OpenCV and webcam
+Pros:
+* More images used in training, the better! We can gather images for each person as much as we want.
+* Can gather example face image in different lighting conditions,different times of day, different moods and emotional states.
+* Typical for companies, schools, or other organizations where people need to physically show up and attend every day.
+Cons:
+* Need to have physical access to a particular person to gather example images of their face.
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+# Test
