@@ -26,7 +26,8 @@ Website: https://www.stonelock.com/
 Website: https://www.facekey.com/   
 * Suprema  
 Website:https://www.supremainc.com/en/solutions/facial-recognition-system.asp   
-"Suprema's facial recognition technology detects changes in the surrounding environment. By controlling near-infrared LED according to the surrounding brightness, it is possible to authenticate users from a dark room and even outdoors."   
+"Suprema's facial recognition technology detects changes in the surrounding environment. By controlling near-infrared LED according to the surrounding brightness, it is possible to authenticate users from a dark room and even outdoors."  
+
 ## Patent Analysis
 * Amazon: Rekognition  
 The Rekognition technology could one day scan your face, identify who you are, use visual cues to figure out the kind of work you do, and potentially track you as you move around.http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.html&r=1&f=G&l=50&s1=%2220190050629%22.PGNR.&OS=DN/20190050629&RS=DN/20190050629    
