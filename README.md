@@ -37,7 +37,8 @@ https://patents.google.com/patent/US9639740B2/en
 The computing device may be configured to determine when a user arrives or enters into proximity with the computing device and/or a probability that the user is present based on sensor input. In response to a positive determination that the user is present or upon achieving a threshold probability that the user is present, the device may power up, exit a sleep mode, and/or provide some feedback to the user.https://www.patentlyapple.com/patently-apple/2019/08/apple-wins-patent-for-presence-sensing-and-facial-recognition-for-macs.html  
 
 ## System Design
-https://www.lucidchart.com/documents/edit/ada73da8-d447-4a67-bebc-ef268805a659/0_0?shared=true&docId=ada73da8-d447-4a67-bebc-ef268805a659
+![resource](https://github.com/Secure-ID-system/face_id/blob/master/Flowchart.png) 
+Link: https://www.lucidchart.com/documents/edit/ada73da8-d447-4a67-bebc-ef268805a659/0_0?shared=true&docId=ada73da8-d447-4a67-bebc-ef268805a659
 
 ## Technology
 ### Language: Python
@@ -59,6 +60,7 @@ OpenCV
 Pros:   
 * OpenCV provide wide liabraries for image processing. 
 * Support Python  
+
 Cons:  
 * Have to decide on the features to extract then use ML to recogniaze faces according to the feartures.   
 
@@ -74,7 +76,8 @@ Method:OpenCV and webcam
 Pros:  
 * More images used in training, the better! We can gather images for each person as much as we want.  
 * Can gather example face image in different lighting conditions,different times of day, different moods and emotional states.
-* Typical for companies, schools, or other organizations where people need to physically show up and attend every day.   
+* Typical for companies, schools, or other organizations where people need to physically show up and attend every day.  
+
 Cons:  
 * Need to have physical access to a particular person to gather example images of their face.  
 
